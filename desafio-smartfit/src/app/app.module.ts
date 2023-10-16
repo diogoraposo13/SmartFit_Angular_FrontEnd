@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CardsListComponent } from './components/cards-list/cards-list.component';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from './components/card/card.component';
+import { SubtitleComponent } from './components/subtitle/subtitle.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CardComponent } from './components/card/card.component';
     HeaderComponent,
     FormsComponent,
     CardsListComponent,
-    CardComponent
+    CardComponent,
+    SubtitleComponent
   ],
   imports: [
     BrowserModule,
