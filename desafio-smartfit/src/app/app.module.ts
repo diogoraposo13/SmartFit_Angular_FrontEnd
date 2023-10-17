@@ -11,6 +11,7 @@ import { CardsListComponent } from './components/cards-list/cards-list.component
 import { CommonModule } from '@angular/common';
 import { CardComponent } from './components/card/card.component';
 import { SubtitleComponent } from './components/subtitle/subtitle.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SubtitleComponent } from './components/subtitle/subtitle.component';
     FormsComponent,
     CardsListComponent,
     CardComponent,
-    SubtitleComponent
+    SubtitleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
