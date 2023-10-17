@@ -1,5 +1,3 @@
-(This project is currently under development)
-
 
 Welcome to the Smartfit Frontend Challenge Repository!
 
